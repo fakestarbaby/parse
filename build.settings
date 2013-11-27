@@ -1,0 +1,19 @@
+settings = {
+  orientation = {
+    default = "portrait",
+    supported = {
+      "portrait",
+    },
+  },
+
+  iphone = {
+    plist = {
+      UIStatusBarHidden = false,
+      UIPrerenderedIcon = true,
+    },
+  },
+
+  androidPermissions = {
+    "android.permission.INTERNET",
+  },
+}
